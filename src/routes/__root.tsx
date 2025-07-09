@@ -1,10 +1,10 @@
 import { createRootRoute, Link, Outlet } from "@tanstack/react-router";
 // import { TanStackRouterDevtools } from "@tanstack/react-router-devtools";
 import logo from "./assets/logo.png";
-import twit from "./assets/Home/twit.png";
-import face from "./assets/Home/face.png";
-import linkedin from "./assets/Home/linkedin.png";
-import postivus from "./assets/Home/postivus.png";
+import twit from "./assets/home/twit.png";
+import face from "./assets/home/face.png";
+import linkedin from "./assets/home/linkedin.png";
+import postivus from "./assets/home/postivus.png";
 import { useEffect, useRef, useState } from "react";
 
 export const Route = createRootRoute({
